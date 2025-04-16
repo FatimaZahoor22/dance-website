@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html 
+  head
+    title FZ Dance Class
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+              img(src="/static/img/logo.png")
+              | FZ 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Dance Class
+        div.small Khao Piyo Aur Moojein Maro
+    section#missionSection
+        h2 Our Mission
+        div.card
+           h3 Dance Perfection
+           div.card-box
+               div.card-img
+                   img(src="/static/img/img4.png")
+               div.card-content
+                   p This is best dance class    
+        div.card
+           h3 The way you like 
+           div.card-box
+               div.card-img
+                   img(src="/static/img/img7.jpg")
+               div.card-content
+                   p This is best dance class 
+        div.card
+           h3 Expect Teaching
+           div.card-box
+               div.card-img
+                   img(src="/static/img/img6.jpg")
+               div.card-content
+                   p This is best dance class            
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.avif", alt="sponsor img", class="spimg")
+            img(src="/static/img/logo2.webp", alt="sponsor img", class="spimg")
+            img(src="/static/img/logo3.webp", alt="sponsor img", class="spimg")
+            img(src="/static/img/logo4.png", alt="sponsor img", class="spimg")
+
+
+    footer#footer
+        | Copyright 2025 FZDance class | All Rights Reserved
+    
+    script
+      include ../static/index.js
