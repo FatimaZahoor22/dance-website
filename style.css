@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald:wght@200..700&family=Protest+Guerrilla&family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar {
+    background-color: rgb(28, 26, 26);
+    padding: 18px 14px;
+    font-family: "ZCOOL QingKe HuangYou";
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 12px 25px;
+    color: goldenrod;
+    font-size: 23px;
+}
+
+#navbar li a:hover{
+    color:rgb(175, 147, 75);
+}
+
+#introSection {
+    height: 425px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: purple;
+    font-family: "ZCOOL QingKe HuangYou";
+    font-size: 65px;
+    background: center / cover no-repeat url("/static/img.jpg");
+    color: goldenrod;
+}
+
+#introSection div.small{
+    font-size: 28px;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 32px;
+   color:  rgb(81, 61, 9);
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(175, 147, 75) ;
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: 22px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spimg{
+    height: 40%;
+    margin: 30px;
+}
+.spimg:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#missionSection{
+    height: 326px;
+    margin: auto;
+    width: 80%;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 32px;
+    color: rgb(128, 96, 14);
+}
+
+.card{
+    display: inline-block;
+    margin: 23px 15px;
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    /* background-color: rgb(227, 224, 165); */
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 17px;
+}
+.card-box{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.card-img{
+    height: 131px;
+    margin: 5px 9px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 15px;
+}
+#footer {
+    height: 50px;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#logo img{
+    height: 42px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin:0 14px;
+    color: goldenrod;
+    font-size: 28px;
+    margin-right: 40px;
+}
